@@ -37,3 +37,7 @@ end
 def using_flatten(array)
   array.flatten
 end
+
+def no_offense_steven(array, element)
+  array.delete(element)
+end
